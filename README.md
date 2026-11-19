@@ -32,19 +32,19 @@ This technique is called **binary interpolative coding** (Moffat & Stuiver, 2000
 
 ## Install
 
-The package name `@your-scope/middleout` below is a placeholder until it is published. See the [package name note](#package-name).
+The package is published under the scoped name `@dnisdev666/middleout`. See the [package name note](#package-name).
 
 **npm (as a library or a global CLI):**
 
 ```bash
-npm install @your-scope/middleout          # library
-npm install -g @your-scope/middleout       # adds the `middleout` command
+npm install @dnisdev666/middleout          # library
+npm install -g @dnisdev666/middleout       # adds the `middleout` command
 ```
 
 **npx (no install):**
 
 ```bash
-npx @your-scope/middleout c bigfile.txt
+npx @dnisdev666/middleout c bigfile.txt
 ```
 
 **Or just download the single file.** `middleout.js` is self-contained, so copy it anywhere and run it with `node`:
@@ -101,7 +101,7 @@ Decompressing `notes.txt.mo` with no output name writes to `notes.txt`. If that 
 
 ```js
 const fs = require('fs');
-const { compress, decompress } = require('@your-scope/middleout'); // or require('./middleout.js')
+const { compress, decompress } = require('@dnisdev666/middleout'); // or require('./middleout.js')
 
 const input = fs.readFileSync('notes.txt');      // Buffer or Uint8Array
 const packed = compress(input);                  // Uint8Array
@@ -211,7 +211,7 @@ This project assembles published techniques. The credit belongs to their authors
 
 ## Package name
 
-`middleout` is free on npm right now (`npm view middleout` returns 404). However, npm rejects new names that only differ from an existing package by punctuation, and [`middle-out`](https://www.npmjs.com/package/middle-out) already exists. That is why the package uses the scoped placeholder `@your-scope/middleout`. Unscoped alternatives that were free when checked include `middleout-bwt` and `middleout-compress`.
+`middleout` is free on npm right now (`npm view middleout` returns 404). However, npm rejects new names that only differ from an existing package by punctuation, and [`middle-out`](https://www.npmjs.com/package/middle-out) already exists. That is why the package is published as `@dnisdev666/middleout`. Unscoped alternatives that were free when checked include `middleout-bwt` and `middleout-compress`.
 
 ## License
 

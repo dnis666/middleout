@@ -1,5 +1,5 @@
 {
-  "name": "@your-scope/middleout",
+  "name": "@dnisdev666/middleout",
   "version": "1.0.0",
   "description": "A real, zero-dependency lossless compressor: Burrows-Wheeler transform + \"middle-out\" binary interpolative coding. Inspired by Silicon Valley; bound by information theory.",
   "main": "middleout.js",

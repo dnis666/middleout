@@ -12,7 +12,8 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "node middleout.js test"
+    "test": "node middleout.js test && node test/test.js",
+    "benchmark": "node scripts/benchmark.js"
   },
   "engines": {
     "node": ">=16.0.0"

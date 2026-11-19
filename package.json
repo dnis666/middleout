@@ -1,0 +1,46 @@
+{
+  "name": "@your-scope/middleout",
+  "version": "1.0.0",
+  "description": "A real, zero-dependency lossless compressor: Burrows-Wheeler transform + \"middle-out\" binary interpolative coding. Inspired by Silicon Valley; bound by information theory.",
+  "main": "middleout.js",
+  "bin": {
+    "middleout": "middleout.js"
+  },
+  "files": [
+    "middleout.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node middleout.js test"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "compression",
+    "compressor",
+    "lossless",
+    "middle-out",
+    "middleout",
+    "burrows-wheeler",
+    "bwt",
+    "suffix-array",
+    "sa-is",
+    "move-to-front",
+    "interpolative-coding",
+    "weissman-score",
+    "silicon-valley",
+    "zero-dependency",
+    "cli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/your-github-user/middleout.git"
+  },
+  "homepage": "https://github.com/your-github-user/middleout#readme",
+  "bugs": {
+    "url": "https://github.com/your-github-user/middleout/issues"
+  }
+}

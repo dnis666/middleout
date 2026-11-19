@@ -1,0 +1,18 @@
+# dependencies (there are none at runtime, but keep tooling out)
+node_modules/
+
+# compressed output and round-trip artifacts
+*.mo
+*.out
+
+# benchmark / test corpora and scratch output
+silesia/
+corpus/
+bench-results/
+*.tgz
+
+# logs and OS / editor noise
+npm-debug.log*
+.DS_Store
+.vscode/
+.idea/

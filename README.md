@@ -50,7 +50,7 @@ npx @dnisdev666/middleout c bigfile.txt
 **Or just download the single file.** `middleout.js` is self-contained, so copy it anywhere and run it with `node`:
 
 ```bash
-curl -O https://raw.githubusercontent.com/your-github-user/middleout/main/middleout.js
+curl -O https://raw.githubusercontent.com/dnis666/middleout/main/middleout.js
 node middleout.js test
 ```
 

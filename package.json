@@ -1,6 +1,6 @@
 {
   "name": "@dnisdev666/middleout",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A real, zero-dependency lossless compressor: Burrows-Wheeler transform + \"middle-out\" binary interpolative coding. Inspired by Silicon Valley; bound by information theory.",
   "main": "middleout.js",
   "bin": {
@@ -37,10 +37,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/your-github-user/middleout.git"
+    "url": "git+https://github.com/dnis666/middleout.git"
   },
-  "homepage": "https://github.com/your-github-user/middleout#readme",
+  "homepage": "https://github.com/dnis666/middleout#readme",
   "bugs": {
-    "url": "https://github.com/your-github-user/middleout/issues"
+    "url": "https://github.com/dnis666/middleout/issues"
   }
 }
